@@ -1,0 +1,33 @@
+header .nav_head{
+	height: 50px;
+	padding-bottom: 45px;
+	background-color: #f8f8f8;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 555;
+}
+header .menulogo{	
+	max-width: 138px;	
+}
+header .logo1{
+	
+}
+header .head{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header .p{
+	font-size: 25px;
+	text-align: center;
+		margin:5px 0 14px;
+}
+header .menulogo2{
+	max-height: 100%;
+	max-width: 40px;
+}
+main .backvideo{
+	width: 100%;
+}
