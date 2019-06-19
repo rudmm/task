@@ -1,33 +1,95 @@
-header .nav_head{
-	height: 50px;
-	padding-bottom: 45px;
-	background-color: #f8f8f8;
-	position: fixed;
-	top: 0;
+@font-face {
+	font-family: Flama-Basic;
+	src: url(fonts/Flama-Basic.woff);
+	font-weight: 700;
+}
+html{
+	overflow-x: hidden;
+}
+body{
+	margin: 0;
+}
+header .menu{
 	width: 100%;
-	z-index: 555;
+	height: 55px;
+	background: #fff;
+	position: absolute;
+	z-index: 100;
 }
 header .menulogo{	
-	max-width: 138px;	
-}
-header .logo1{
-	
-}
-header .head{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	width: 138px;
+	height: 60px;
 }
 header .p{
 	font-size: 25px;
 	text-align: center;
-		margin:5px 0 14px;
+		font-family: "Flama-Basic";
+		font-weight: bold;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+
 }
+header .leftlogo, header .logop, header .rightlogo{
+	height: 100%;
+}
+header .rightlogo{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
 header .menulogo2{
-	max-height: 100%;
-	max-width: 40px;
+	height: 48px;
+	width: 48px;
+	float: right;
+	margin-right: 15px;
+
+}
+header .fixed{
+  position: fixed;
+  top: 0;
+  margin-top: 2px;
+  
 }
 main .backvideo{
 	width: 100%;
 }
+main .backvideom{
+	display: none;
+}	
+main .video1{
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+main .videoh {
+	position: absolute;
+	z-index: 555;
+	width: 1069px;
+	text-align: center;
+}
+main .videoh h1{
+	
+	color: #fff;
+	font-family: "Flama-Basic";
+	font-size: 80px;
+	font-weight: bold;
+	opacity: 0;
+	-webkit-transition: opacity 0.1s ease-in-out;
+
+}
+main .video1:hover h1{
+	opacity: 1;
+	
+	-webkit-transition: opacity 0.1s ease-in-out;
+
+}
+
+
+
+
