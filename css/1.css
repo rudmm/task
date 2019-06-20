@@ -322,8 +322,11 @@ main .block2{
 
 .part7 .product {
 	max-width: 200px;
+	text-align: center;
 }
+
 .part7 .product .photoproduct{
+	max-height: 200px;
 		
 }
 .part7 .product .nameproduct{
@@ -345,11 +348,21 @@ main .block2{
     align-items: center;
     border-radius: 20px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;	
 }
 .part7 .product .buttonproduct a {
 	font-family: 'Lato'
     font-size:18px;
     color: #fff;
     text-decoration: none;
+}
+
+/*section part8*/
+
+.part8 .gilrlstomato{
+max-width: 1010px;
+margin-top: 50px;
+}
+.part8 .gilrlstomato img{
+	border-radius: 5px;
 }
