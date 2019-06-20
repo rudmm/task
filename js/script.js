@@ -12,7 +12,7 @@ $('.videoh').addClass('translate');
 let video1 = document.querySelector('.video1').getBoundingClientRect();
 $(window).scroll(function(){
   let scroll = $(window).scrollTop();
-  if(scroll>=511){
+  if(scroll>=615){
     $('.videoh').removeClass('translate');
     
   }else{
@@ -25,10 +25,26 @@ console.log(img2.top, img2.bottom, img2.left, img2.right);
 $(window).scroll(function(){
   let scroll = $(window).scrollTop();
   console.log(scroll);
-  if(scroll>=1089 && scroll<=1756){
+  if(scroll>=1000 && scroll<=2238){
     $('.quote').addClass('translate');
   }else{
     $('.quote').removeClass('translate');
   }
 });
-$('.quote').addClass('translate');
+$(window).scroll(function(){
+  let scroll = $(window).scrollTop();
+  if(scroll>=2441 &&scroll<=3741){
+    $(' .quote2').addClass('translate');
+  }else{
+    $('.quote2').removeClass('translate');
+  }
+});
+
+$(window).scroll(function(){
+  let scroll = $(window).scrollTop();
+  if(scroll>=2850){
+    $('.part5 .tomatop').addClass('translate');
+  }else{
+     $('.part5 .tomatop').removeClass('translate');
+  }
+});

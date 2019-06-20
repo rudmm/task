@@ -196,6 +196,7 @@ main .block2{
 .part3 .video3{
 	max-width: 1022px;
 	height: auto;
+	border-radius: 5px;
 }
 
 /*section part4*/
@@ -224,26 +225,131 @@ main .block2{
 .part4 .post4 a:hover{
 	color: #555555;
 }
-.part4 .quote blockquote{
+.part4 .quote2 blockquote{
 	font-size: 35px;
     font-weight: 500;
     line-height: 1.5;
     margin: 55px 60px 30px;
     text-align: center;	
 }
-.part4 .quote h4{
+.part4 .quote2 h4{
 	margin: 18px 50px 18px 0;
     text-align: right;
     font-size: 16px;
     font-weight: 700;
 }
-.part4 .quote{
+.part4 .quote2{
 	max-width: 415px;
 	margin-top:150px;
 	transition: 4s;
 	opacity: 0;
+	transition: 4s;
 }
 .part4 .translate{
 	opacity: 1;
 	transform: translateY(-20px);
+}
+
+/*section part5*/
+
+.part5 .tomato{
+	max-width: 1176px;
+	margin-top: 50px;
+	position: relative;
+}
+.part5 .tomato img{
+	border-radius: 5px;
+}
+.part5 .tomatop{
+	max-width: 400px;
+	background: #fff;
+	border-radius: 5px;
+	padding-top: 50px;
+
+    font-family: 'Lato';
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    opacity: 0;
+    transition: 4s;
+}
+.part5 .translate{
+	opacity: 1;
+	transform: translateY(-50px);
+}
+.part5 .tomatop h3{
+	    margin: 0 0 0 50px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 900;
+
+}
+.part5 .tomatop p{
+	    font-size: 15px;
+    line-height: 2;
+    margin: 15px 50px 14px;
+    text-align: left;
+}
+.part5 .tomatop ul{
+	padding-left: 0;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.part5 .tomatop li{
+	font-size: 15px;
+    margin: 16px 40px 16px 70px;
+    text-align: left;
+}
+.part5 .tomatop li a{
+	    color: #e5c769;
+    font-weight: 700;
+    text-decoration: none;
+}
+.part5 .tomatop li a:hover{
+	color: #555555;
+}
+
+/*section part6*/
+
+.part6 .video4{
+	max-width: 1022px;
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/*section part7*/
+
+.part7 .product {
+	max-width: 200px;
+}
+.part7 .product .photoproduct{
+		
+}
+.part7 .product .nameproduct{
+	    color: #464646;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    word-spacing: 0;
+}
+
+.part7 .product .buttonproduct{
+	    background-image: none;
+    background-color: #67635c;
+    border: 1px solid #67635c;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.part7 .product .buttonproduct a {
+	font-family: 'Lato'
+    font-size:18px;
+    color: #fff;
+    text-decoration: none;
 }
