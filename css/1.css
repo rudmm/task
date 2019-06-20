@@ -362,7 +362,78 @@ main .block2{
 .part8 .gilrlstomato{
 max-width: 1010px;
 margin-top: 50px;
+position: relative;
 }
 .part8 .gilrlstomato img{
 	border-radius: 5px;
+	
+}
+.part8 .listquote{
+	max-width: 415px;
+	position: absolute;
+	top: 70%;
+	right: -15%;
+}
+.part8 .listquote .quote3 blockquote{
+	font-size: 35px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0px 60px 30px;
+    text-align: center;
+}
+.part8 .listquote .quote3 h4{
+	margin: 18px 50px 0 0;
+    text-align: right;
+        font-size: 16px;
+    font-weight: 700;
+}
+.part8 .listquote .quote3{
+	background-color: #67635c;
+	color: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding-top: 55px;
+	padding-bottom: 18px;
+}
+.part8 .listquote ul{
+	padding: 20px;
+    margin: 0;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.part8 .listquote ul li{
+	font-family: "Lato";
+	font-size: 15px;
+    font-weight: 700;
+    line-height: 2;
+    margin: 0 0 16px 20px;
+    text-align: left;
+}
+.part8 .listquote ul li a{
+	text-decoration: none;
+	color: #e5c769;
+	font-weight: 700;
+}
+.part8 .listquote ul li a:hover{
+	color: #555555;
+}
+.part8 .post5{
+	    max-width: 400px;
+    float: right;
+    margin-top: 40px;
+}
+.part8 .post5 h3{
+	    font-weight: 700;
+    font-family: "Lato";
+    font-size: 24px;
+}
+.part8 .post5 p{
+	    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2;
+    margin: 10px 0 14px;
 }
