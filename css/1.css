@@ -192,7 +192,9 @@ main .block2{
 }
 
 /*section part3*/
-
+main .part3{
+	padding: 150px 0;
+}
 .part3 .video3{
 	max-width: 1022px;
 	height: auto;
@@ -436,4 +438,43 @@ position: relative;
     font-weight: 300;
     line-height: 2;
     margin: 10px 0 14px;
+}
+
+/*section part9*/
+
+.part9 .food{
+	max-width: 984px;
+	margin-top: 50px;
+	position: relative;
+}
+.part9 .food .pointer{
+	width: 444px;
+	height: 111px;
+	background: #fff;
+	box-shadow:2px 3.464px 15px 0px rgba( 90, 122, 255, 0.3);
+	border-radius: 10px;
+	position: absolute;
+	top: 70%;
+	right: -15%;
+}
+.part9 .food .pointer a{
+	    color: #8a3626;
+	    text-decoration: none;
+	    font-family: "Lato";
+	    font-size: 32px;
+
+}
+.part9 .food .pointer svg{
+	width: 70px;
+    height: 60px;
+    fill: #8a3626;
+}
+.part9 .food .pointer h2{
+	margin-right: 20px;
+}
+
+/*section part10*/
+
+.part10 .logoend{
+	max-width: 272px;
 }
