@@ -509,12 +509,21 @@ font-size: 14px;
     margin-top: 85px;
     max-width: 356px;
 }
-footer .img-two{
+footer .footercontent{
+	max-width: 1024px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+footer .footercontent img{
 	max-width: 66px;
-		margin-left: auto;
+	max-height:  66px;
 }
 footer .p{
 	display: inline-table;
+	padding: 30px;
+	padding-top: 0;
 }
 footer .p p{
 	margin: 10px 0;
@@ -525,11 +534,7 @@ footer .p p{
 footer .p p:nth-of-type(1){
 	margin-top: 0;
 }
-footer .flexing{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
+
 footer .rowsfooter{
 	margin-bottom: 40px;
 }
@@ -543,4 +548,27 @@ footer .ptelefone {
 footer .ptelefone a {
 	text-decoration: none;
 	color: #009688;
+}
+footer .listlink{
+
+}
+footer .listlink a {
+	text-decoration: none;
+	color: #009688;
+	font-weight: 300;
+	font-family: "Lato";
+	font-size: 14px;
+	padding: 0 5px;
+	border-right: 2px solid #fff;
+}
+footer .listlink a:nth-of-type(1){
+	padding-left: 0;
+}
+footer .end{
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #fff;	
+    font-family: "Lato";
+    max-width: 814px;
 }
