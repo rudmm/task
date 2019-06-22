@@ -340,7 +340,7 @@ main .part3{
 }
 
 .part7 .product .photoproduct{
-	max-height: 200px;
+	height: 200px;
 		
 }
 .part7 .product .nameproduct{
@@ -380,13 +380,13 @@ position: relative;
 }
 .part8 .gilrlstomato img{
 	border-radius: 5px;
-	
+	margin-left: -100px;
 }
 .part8 .listquote{
 	max-width: 415px;
 	position: absolute;
 	top: 70%;
-	right: -15%;
+	right: -10%;
 }
 .part8 .listquote .quote3 blockquote{
 	font-size: 35px;
@@ -438,6 +438,7 @@ position: relative;
 	    max-width: 400px;
     float: right;
     margin-top: 40px;
+    margin-right: -100px;
 }
 .part8 .post5 h3{
 	    font-weight: 700;
