@@ -459,10 +459,10 @@ position: relative;
 	max-width: 984px;
 	margin-top: 50px;
 	position: relative;
+	margin-left: -200px;
 }
 .part9 .food img{
 	margin-bottom: 50px;
-	margin-left: -100px;
 }
 .part9 .food .pointer{
 	width: 444px;
@@ -472,7 +472,7 @@ position: relative;
 	border-radius: 10px;
 	position: absolute;
 	top: 70%;
-	right: -6%;
+	right: -15%;
 }
 .part9 .food .pointer a{
 	    color: #8a3626;
