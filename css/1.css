@@ -513,7 +513,7 @@ footer .footercontent{
 	max-width: 1024px;
 	display: flex;
 	justify-content: center;
-	margin: 0 auto;
+	margin: 50px auto 50px;
 }
 
 footer .footercontent img{
@@ -525,6 +525,9 @@ footer .p{
 	padding: 30px;
 	padding-top: 0;
 }
+footer .p:nth-of-type(1){
+	padding-left: 0;
+}
 footer .p p{
 	margin: 10px 0;
 	font-family: "Lato";
@@ -534,23 +537,26 @@ footer .p p{
 footer .p p:nth-of-type(1){
 	margin-top: 0;
 }
-
-footer .rowsfooter{
-	margin-bottom: 40px;
+footer .footercontact{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: auto;
+	margin-bottom: 50px;
 }
-
 footer .ptelefone {
 	font-weight: 700;
 	font-family: "Lato";
 	font-size: 14px;
 	color: #fff;
+
 }
 footer .ptelefone a {
 	text-decoration: none;
 	color: #009688;
 }
 footer .listlink{
-
+	margin-bottom: 20px;
 }
 footer .listlink a {
 	text-decoration: none;
