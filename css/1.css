@@ -57,9 +57,12 @@ header .fixed{
 /*main*/
 
 /*section part1*/
+
+
 .part1 .backvideo{
 	width: 100%;
 }
+
 .part1 .backvideom{
 	display: none;
 }	
@@ -136,8 +139,9 @@ body .block2{
 }
 .part2 .post a{
 	text-decoration: none;
+	font-family: "Lato";
 	color: #e5c769;
-	font-weight: 700;
+	font-weight: 900;
 }
 .part2 .post a:hover{
 	color: #555555;
@@ -159,7 +163,11 @@ body .block2{
 	max-width: 1010px;
 	margin: 40px 0;
 	position: relative;
-
+	margin-bottom: 100px;
+}
+.part2 .img2 img{
+	border-radius: 5px;
+	margin-left: -90px;
 }
 .part2 div.quote{
 	background: #67635c;
@@ -171,9 +179,10 @@ body .block2{
     float: right;
     position: absolute;
     top: -15%;
-    right:  -15%;
+    right:  -5%;
     opacity: 0;
     transition: 4s;
+    margin-left: -70px;
 }
 .part2 .quote blockquote{
 		    font-size: 35px;
@@ -205,7 +214,8 @@ main .part3{
 .part4 .post4{
 	max-width: 400px;
 	float: right;
-	margin-top: 40px;
+	margin-top: 80px;
+	margin-right: -100px;
 }
 .part4 .post4 h3{
 	font-weight: 700;
@@ -233,6 +243,7 @@ main .part3{
     line-height: 1.5;
     margin: 55px 60px 30px;
     text-align: center;	
+
 }
 .part4 .quote2 h4{
 	margin: 18px 50px 18px 0;
@@ -246,6 +257,7 @@ main .part3{
 	transition: 4s;
 	opacity: 0;
 	transition: 4s;
+	margin-left: 100px;
 }
 .part4 .translate{
 	opacity: 1;
@@ -481,6 +493,8 @@ position: relative;
 .part10 .logoend{
 	max-width: 272px;
 	margin: 100px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .part10 .listbrand{
 	margin-bottom: 90px;
@@ -519,15 +533,15 @@ footer .footercontent{
 footer .footercontent img{
 	max-width: 66px;
 	max-height:  66px;
+	float: right;
 }
 footer .p{
 	display: inline-table;
 	padding: 30px;
 	padding-top: 0;
-}
-footer .p:nth-of-type(1){
 	padding-left: 0;
 }
+
 footer .p p{
 	margin: 10px 0;
 	font-family: "Lato";
