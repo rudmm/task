@@ -465,7 +465,7 @@ position: relative;
 	margin-bottom: 50px;
 }
 .part9 .food .pointer{
-	max-width: 444px;
+	width: 444px;
 	height: 111px;
 	background: #fff;
 	box-shadow:2px 3.464px 15px 0px rgba( 90, 122, 255, 0.3);
@@ -479,6 +479,8 @@ position: relative;
 	    text-decoration: none;
 	    font-family: "Lato";
 	    font-size: 32px;
+	    display: flex;	
+	    font-weight: 900;
 
 }
 .part9 .food .pointer svg{
@@ -488,6 +490,8 @@ position: relative;
 }
 .part9 .food .pointer h2{
 	margin-right: 20px;
+	max-height: 41px;
+	margin-bottom: 0;
 }
 
 /*section part10*/
@@ -538,8 +542,8 @@ footer .footercontent img{
 	float: right;
 }
 footer .p{
-	display: inline-table;
-	padding: 30px;
+	display: table-cell;
+	padding: 20px;
 	padding-top: 0;
 	padding-left: 0;
 }
@@ -598,6 +602,9 @@ footer .end{
 @media (max-width: 1083px){
 	.part1 .videoh h1{
 		font-size: 60px;
+	}
+	footer .footercontent .p{
+		padding: 5px;
 	}
 }
 
@@ -719,6 +726,46 @@ border-radius: 5px;
     	padding: 15px;
     	top: 45%;
     	right: -13%;
+    }
+    .part10 .listbrand p{
+    	font-size: 25px;
+    	margin: 0 40px 30px;
+    }
+    .part10 .listbrand {
+    	max-width: 750px;
+    	display: block;
+    	text-align: center;
+    	margin-right: auto;
+    	margin-left: auto;
+    	margin-bottom: 50px;
+    }
+    footer .p1{
+    	margin-top: 45px;
+    	font-size: 13px;	
+    }
+    footer .footercontent{
+    	margin-top: 0;	
+    } 
+    footer .footercontent img{
+    	max-width: 89px;
+    	max-height: 82px;
+    }
+    footer .footercontent .p{
+    	display: block;
+    }
+    footer .footercontact {
+    	display: block;
+    }
+    footer .footercontact .ptelefone{
+    	padding: 5px;
+    }
+    footer .listlink p{
+    	max-width: 600px;
+    	margin-left: 50px;
+    }
+    footer .footercontent .end{
+    	max-width: 600px;
+    	margin-left: 50px;
     }
 
 }
