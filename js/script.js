@@ -1,4 +1,5 @@
-$(window).scroll(function() {
+$('.videoh').addClass('translate');
+/*$(window).scroll(function() {
    let scroll = $(window).scrollTop();
 
 
@@ -8,7 +9,7 @@ $(window).scroll(function() {
        $('.menu').removeClass('fixed');
    }
 });
-$('.videoh').addClass('translate');
+
 let video1 = document.querySelector('.video1').getBoundingClientRect();
 $(window).scroll(function(){
   let scroll = $(window).scrollTop();
@@ -46,7 +47,7 @@ $(window).scroll(function(){
   }else{
      $('.part5 .tomatop').removeClass('translate');
   }
-});
+});*/
 
 //footercontact begin
 let footerp = document.querySelectorAll("footer .footercontent .p");

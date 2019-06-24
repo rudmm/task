@@ -77,7 +77,7 @@ header .fixed{
 .part1 .videoh {
 	position: absolute;
 	z-index: 50;
-	width: 1069px;
+	max-width: 1069px;
 	text-align: center;
 	opacity: 0;
 	transition: 4s;
@@ -172,7 +172,7 @@ body .block2{
 .part2 div.quote{
 	background: #67635c;
 	color: #fff;
-	width: 415px;
+	max-width: 415px;
 	padding: 5px;
 	border-radius: 5px;
     font-family: Flama-Basic;
@@ -180,7 +180,7 @@ body .block2{
     position: absolute;
     top: -15%;
     right:  -5%;
-    opacity: 0;
+    opacity: 1;
     transition: 4s;
     margin-left: -70px;
 }
@@ -218,7 +218,7 @@ main .part3{
 	margin-right: -100px;
 }
 .part4 .post4 h3{
-	font-weight: 700;
+	font-weight: 900;
 	font-family: "Lato";
 	font-size: 24px;
 }
@@ -255,7 +255,7 @@ main .part3{
 	max-width: 415px;
 	margin-top:150px;
 	transition: 4s;
-	opacity: 0;
+	opacity: 1;
 	transition: 4s;
 	margin-left: 100px;
 }
@@ -284,7 +284,7 @@ main .part3{
     position: absolute;
     top: 15%;
     right: 15%;
-    opacity: 0;
+    opacity: 1;
     transition: 4s;
 }
 .part5 .translate{
@@ -593,4 +593,111 @@ footer .end{
     color: #fff;	
     font-family: "Lato";
     max-width: 814px;
+}
+
+@media (max-width: 1083px){
+	.part1 .videoh h1{
+		font-size: 60px;
+	}
+}
+
+@media (max-width: 992px){
+	.part1 .videoh h1{
+		font-size: 50px;
+	}
+	.part1 .videoh{
+		margin-top: 200px;
+	}
+	.part1 .video1 .videoh2{
+		bottom: -25%;
+	}
+	.part2{
+		margin-top: 100px;
+	}
+	.part2 .post{
+		max-width: 580px;
+	}
+	.part2 .video2{
+		max-width: 597px;
+	}
+	.part2 .post2{
+		float: none;
+		max-width: 597px;
+		margin-left: auto;
+		margin-right: auto;
+		font-weight: 500;
+	}
+	.part2 .img2{
+		max-width: 598px;
+		margin-bottom: 50px;
+	}
+	.part2 .img2 img{
+		margin-left: 0;
+    }
+    .part2 div.quote{
+    	position: relative;
+    	top: auto;
+    	right: auto;
+    	max-width: 597px;
+    	margin-top: 30px;
+    }
+    .part2 .quote blockquote{
+    	font-size: 25px;
+    }
+    .part2 .quote h4{
+    	font-size: 16px;
+    }
+    .part3 .video3{
+    	max-width: 597px;
+    }
+    main .part3 {
+    	padding: 100px 0;
+    }
+    .part4 .post4{
+    	float: none;
+    	max-width: 567px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin-top: 40px;	
+    }
+    .part4  .quote2 {
+    	max-width: 597px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin-top: 40px;
+    }
+    .part4 .quote2 blockquote{
+    	font-weight: 700;
+    	font-size: 25px;
+    	margin: 0
+    }
+    .part4 .quote2 h4{
+    	font-size: 16px;
+    	font-weight: 700;
+    }
+    .part5 .tomato img{
+    	content: url(../images/tomatom.png);
+border-radius: 5px;	
+    }
+    .part5 .tomatop{
+    	top: 7%;
+    	right: 17%;
+    	max-height: 625px;
+    	padding-top: 20px;
+    }
+    .part6 .video4{
+    	max-width: 596px;
+    }
+    .part8 .gilrlstomato img{
+    	margin-left: 0;
+    }
+    .part8 .gilrlstomato{
+    	max-width: 599px;
+    }
+    .part8 .gilrlstomato .listquote{
+    	position: relative;
+    	top: auto;
+    	right: auto;
+    }
+
 }
