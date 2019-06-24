@@ -714,5 +714,11 @@ border-radius: 5px;
     .part9 .food img{
     	margin-left: -70px;
     }
+    .part9 .food .pointer{
+    	max-width: 354px;
+    	padding: 15px;
+    	top: 45%;
+    	right: -13%;
+    }
 
 }
