@@ -201,8 +201,9 @@ body .block2{
 }
 
 /*section part3*/
-main .part3{
+main section.part3{
 	padding: 150px 0;
+	background-image: url('../images/backtomate.png');
 }
 .part3 .video3{
 	max-width: 1022px;
@@ -463,13 +464,14 @@ position: relative;
 }
 .part9 .food img{
 	margin-bottom: 50px;
+	border-radius: 5px;
 }
 .part9 .food .pointer{
 	width: 444px;
 	height: 111px;
 	background: #fff;
 	box-shadow:2px 3.464px 15px 0px rgba( 90, 122, 255, 0.3);
-	border-radius: 10px;
+	border-radius: 5px;
 	position: absolute;
 	top: 70%;
 	right: -15%;
@@ -617,6 +619,7 @@ footer .end{
 	}
 	.part1 .video1 .videoh2{
 		bottom: -25%;
+		width: 400px;	
 	}
 	.part2{
 		margin-top: 100px;
@@ -713,6 +716,9 @@ border-radius: 5px;
     	margin-left: auto;
     	margin-right: auto;
     }
+    .part8 .listquote{
+    	margin-top: 20px;
+    }
     .part9 .food{
     	max-width: 467px;
     	margin-left: auto;
@@ -768,4 +774,175 @@ border-radius: 5px;
     	margin-left: 50px;
     }
 
+}
+@media (max-width: 768px) {
+	.part1 .videoh{
+		margin-top: 180px;
+	} 
+	.part1 .video1 .videoh2{
+		bottom: -30%;
+	}
+	.part10 .listbrand p{
+		margin: 0 30px 30px;
+	}
+	footer .p1{
+		max-width: 307px;
+	}
+	footer .listlink p{
+		margin-left: 0; 
+	}
+	footer .footercontent .end{
+		margin-left: 0;
+	}
+	
+}
+@media (max-width: 597px){
+	header .leftlogo{	
+		padding: 0;
+		display: flex;
+		align-items: center;
+	}
+	header .menulogo{
+		
+		max-width: 84px;
+		max-height: 33px;
+	}
+	header .logop .p{
+		font-size: 15px;
+	}
+	header .menulogo2{
+		max-height: 33px;
+		max-width: 33px;
+		margin-right: 0;
+	}
+	.part1 .backvideo{
+		display: none;
+	}
+	.part1 .backvideom{
+		display: block;
+		width: 100%;
+	}
+	.part1 .videoh{
+		bottom: 7%;
+		max-width: 400px;
+
+	}
+	.part1 .videoh h1{
+		font-size: 35px;
+
+	}
+	.part1 .video1 .videoh2 {
+    bottom: -13%;
+    width: 50%;
+}
+    .part2 .post{
+    	max-width: 300px;	
+    	font-size: 16px;
+    }
+    .part2 .video2{
+    	max-width: 320px;
+    }
+    .part2 .post2{
+    	max-width: 320px;
+    }
+    .part2 .img2{
+    	max-width: 320px;
+    }
+    .part2 .img2 .quote{
+    	max-width: 320px;
+    	margin-top: 15px;
+    }
+    .part2 .quote blockquote{
+    	font-size: 20px;
+    	margin: 20px;
+    }
+    .part3 .video3{
+    	max-width: 320px;
+    }
+    section.part3{
+    	background-image: url(../images/blocktomatexs.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .part4 .post4{
+    	max-width: 320px;
+    }
+    .part4 .quote2{
+    	max-width: 320px;
+    }
+    .part4 .quote2 blockquote{
+    	font-size: 20px;
+    }
+    .part5 .tomato{
+    	max-width: 377px;
+    }
+    .part5 .tomato img{
+    	content: url(../images/tomatoxs.png);
+    }
+    .part5 .tomatop{
+    	max-height: 717px;
+    	max-width: 320px;
+    	top: 5%;
+    	right: 7%; 
+    }
+    .part5 .tomatop p{
+    	line-height: 22.5px;
+    }
+    .part6 .video4{
+    	max-width: 320px; 
+    }
+    .part8 .gilrlstomato{
+    	max-width: 320px;
+    }
+    .part8 .listquote .quote3 blockquote{
+    	font-size: 20px;
+    	margin: 20px;
+    }
+    .part8 .listquote .quote3{
+    	padding: 5px;
+    }
+    .part8 .listquote .quote3 h4{
+    	margin: 18px 50px 18px 0;
+    }
+    .part8 .post5{
+    	max-width: 320px;
+    }
+    .part9 .food{
+    	width: 320px;
+    }
+    .part9 .food img{
+    	margin-left: 0;
+    	max-width: 228px;
+    	float: left;
+    }
+    .part9 .food .pointer{
+    	max-width: 217px;
+    	padding: 0;
+    	height: 68px;
+    	top: 30%;
+    	right: 2%;
+    }
+    .part9 .food .pointer a{
+    	font-size: 20px;
+    }
+    .part9 .food .pointer svg{
+    	max-width: 34px;
+    	max-height: 29px;
+    }
+    .part10 .logoend{
+    	max-width: 178px;
+    	max-height: 178px;
+    	margin: 50px auto;
+
+    }
+    .part10 .listbrand{
+    	max-width: 420px;
+    }
+    .part10 .listbrand p {
+    	font-size: 15px;
+    	margin: 0 15px 15px 15px;	
+    }
+    footer .p1{
+    	font-size: 10px;
+    }
 }
