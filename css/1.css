@@ -945,4 +945,14 @@ border-radius: 5px;
     footer .p1{
     	font-size: 10px;
     }
+    footer .footercontent .ptelefone p{
+    	margin-bottom: 0px;
+    }
+    footer .listlink p{
+    	max-width: 306px;
+    	line-height: 19px;
+    }
+    footer .end{
+    	max-width: 320px;
+    }
 }
