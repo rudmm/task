@@ -421,7 +421,7 @@ position: relative;
 .part8 .listquote ul li{
 	font-family: "Lato";
 	font-size: 15px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 2;
     margin: 0 0 16px 20px;
     text-align: left;
@@ -698,6 +698,8 @@ border-radius: 5px;
     	position: relative;
     	top: auto;
     	right: auto;
+    	max-width: 600px;
     }
+
 
 }
