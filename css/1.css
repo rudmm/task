@@ -441,7 +441,7 @@ position: relative;
     margin-right: -100px;
 }
 .part8 .post5 h3{
-	    font-weight: 700;
+	    font-weight: 900;
     font-family: "Lato";
     font-size: 24px;
 }
@@ -465,7 +465,7 @@ position: relative;
 	margin-bottom: 50px;
 }
 .part9 .food .pointer{
-	width: 444px;
+	max-width: 444px;
 	height: 111px;
 	background: #fff;
 	box-shadow:2px 3.464px 15px 0px rgba( 90, 122, 255, 0.3);
@@ -700,6 +700,19 @@ border-radius: 5px;
     	right: auto;
     	max-width: 600px;
     }
-
+    .part8 .post5{
+    	max-width: 600px;
+    	float: none;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+    .part9 .food{
+    	max-width: 467px;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+    .part9 .food img{
+    	margin-left: -70px;
+    }
 
 }
