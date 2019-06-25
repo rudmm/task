@@ -80,7 +80,7 @@ header .fixed{
 	max-width: 1069px;
 	text-align: center;
 	opacity: 0;
-	transition: 4s;
+	transition: 6s;
 	margin-top: 40px;
 }
 .part1 .videoh h1{
@@ -181,6 +181,7 @@ body .block2{
     top: -15%;
     right:  -5%;
     opacity: 1;
+    margin-top: 40px; 
     transition: 4s;
     margin-left: -70px;
 }
@@ -953,6 +954,6 @@ border-radius: 5px;
     	line-height: 19px;
     }
     footer .end{
-    	max-width: 320px;
+    	max-width: 320px;	
     }
 }

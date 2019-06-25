@@ -1,25 +1,26 @@
 $('.videoh').addClass('translate');
-/*$(window).scroll(function() {
+let positionTopVideoh= $('.backvideo').offset().top;
+let positionBottomVideoh = positionTopVideoh + $('.backvideo').innerHeight(); 
+console.log($('.part1').innerHeight());
+
+$(window).scroll(function() {
    let scroll = $(window).scrollTop();
-
-
-   if (scroll >= 1) {
+   //console.log(scroll);
+  if (scroll >= 1) {
        $('.menu').addClass('fixed');
+
    } else {
        $('.menu').removeClass('fixed');
    }
-});
-
-let video1 = document.querySelector('.video1').getBoundingClientRect();
-$(window).scroll(function(){
-  let scroll = $(window).scrollTop();
-  if(scroll>=615){
-    $('.videoh').removeClass('translate');
-    
-  }else{
+   if(scroll>=positionTopVideoh && scroll<=positionBottomVideoh){
     $('.videoh').addClass('translate');
+  }else{
+    $('.videoh').removeClass('translate');
   }
 });
+
+/*
+
 
 let img2 = document.querySelector('.part2 .img2').getBoundingClientRect();
 console.log(img2.top, img2.bottom, img2.left, img2.right);
